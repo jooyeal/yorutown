@@ -10,10 +10,16 @@
     "@emotion/styled": "^11.6.0",
     "@mui/icons-material": "^5.2.1",
     "@mui/material": "^5.2.3",
+    "@reduxjs/toolkit": "^1.7.0",
+    "axios": "^0.24.0",
     "babel-plugin-styled-components": "^2.0.2",
+    "japan-postal-code": "^0.2.0",
     "next": "latest",
+    "next-redux-wrapper": "^7.0.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-redux": "^7.2.6",
+    "redux-persist": "^6.0.0",
     "styled-components": "^5.3.3"
   }
 }
