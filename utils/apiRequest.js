@@ -21,10 +21,9 @@ export const requestToSignIn = async ({ dispatch, data }) => {
     .post(`${BASE_URL}/auth/signin`, data)
     .then((res) => {
       dispatch(loginSuccess(res.data));
-      return res.data;
+      return res;
     })
     .catch((err) => {
-      console.log(err.response.data);
       dispatch(loginFailure());
       return err.response.data;
     });

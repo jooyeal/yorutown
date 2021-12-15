@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   width: 100vw;
-  height: 8rem;
+  height: 5rem;
 `;
 
 export default function BaseLine() {
